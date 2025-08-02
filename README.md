@@ -1,4 +1,5 @@
 Packet Sniffer
+
 Project Description
 Packet Sniffer is a simple packet sniffing tool built using Tkinter for the graphical user interface (GUI) and Scapy for packet capture. This tool allows you to sniff TCP and UDP packets in real-time, displaying packet details such as protocol, source IP, destination IP, and packet length in a professional table format.
 
