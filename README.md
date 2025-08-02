@@ -1,29 +1,42 @@
 Packet Sniffer
-
 Project Description
-Packet Sniffer is a simple packet sniffing tool built using Tkinter for the graphical user interface (GUI) and Scapy for packet capture. This tool allows you to sniff TCP and UDP packets in real-time, displaying packet details such as protocol, source IP, destination IP, and packet length in a professional table format.
+Packet Sniffer is a simple yet powerful packet sniffing tool built with Tkinter for the graphical user interface (GUI) and Scapy for packet capture. This tool allows you to sniff TCP and UDP packets in real-time, displaying key packet details such as protocol, source IP, destination IP, and packet length in a professional table format.
 
-The application provides a clean and easy-to-use interface, where users can start/stop packet sniffing and view the captured packets with their corresponding details.
+The application provides a clean and intuitive interface where users can easily start/stop packet sniffing and view the captured packet details in real-time.
 
 Features
 Packet Sniffing: Capture real-time TCP and UDP packets from the network.
 
-User-friendly GUI: Built with Tkinter, providing a simple interface to start and stop sniffing.
+User-friendly GUI: Built with Tkinter, making it easy to start/stop sniffing with a clean interface.
 
-Packet Details: Displays details such as protocol type, source IP, destination IP, source port, destination port, and packet length.
+Packet Details: Displays important packet information including:
 
-Clear Output: Option to clear the output logs and the packet table.
+Protocol type (TCP/UDP)
+
+Source IP
+
+Destination IP
+
+Source Port
+
+Destination Port
+
+Packet Length (in bytes)
+
+Clear Output: A convenient button to clear the packet table and the output log.
 
 Installation
 Requirements
 Python 3.x or higher
 
-Scapy: For packet sniffing
+Scapy: Required for packet sniffing.
 
-Tkinter: For the GUI (usually bundled with Python)
+Tkinter: Used for the GUI (typically bundled with Python).
 
 Installation Steps
-Clone this repository:
+Follow these steps to set up the project on your local machine:
+
+Clone the repository:
 
 bash
 Copy code
@@ -44,35 +57,17 @@ bash
 Copy code
 python network_tools.py
 Dependencies
-Scapy:
+Scapy: For packet sniffing. Install using:
 
 bash
 Copy code
 pip install scapy
-Tkinter: Tkinter is included with Python by default. If it's missing, you can install it as follows:
+Tkinter: Tkinter comes bundled with Python, but if it's missing, you can install it using:
 
 On Ubuntu/Linux:
 
 bash
 Copy code
 sudo apt-get install python3-tk
-On Windows/macOS: Tkinter comes bundled with Python, so no installation is required.
+On Windows/macOS: Tkinter is included by default with Python, no installation is required.
 
-Usage
-Once the application starts, you will see the following options in the GUI:
-
-Start Sniffing: Begins capturing TCP/UDP packets.
-
-Stop: Stops the packet sniffing process.
-
-Clear Output: Clears both the packet table and the output text area.
-
-Packets will be displayed in the table with the following details:
-
-Protocol: TCP/UDP
-
-Source IP
-
-Destination IP
-
-Packet Length: Size of the packet in bytes
